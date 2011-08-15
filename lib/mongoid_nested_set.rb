@@ -25,7 +25,7 @@ module Mongoid
       autoload :Rebuild,       'mongoid_nested_set/rebuild'
       autoload :Relations,     'mongoid_nested_set/relations'
       autoload :Update,        'mongoid_nested_set/update'
-      autoload :Helper,        'mongoid_nested_set/helper'
+      autoload :Helpers,        'mongoid_nested_set/helpers'
       autoload :Validation,    'mongoid_nested_set/validation'
       autoload :OutlineNumber, 'mongoid_nested_set/outline_number'
 
