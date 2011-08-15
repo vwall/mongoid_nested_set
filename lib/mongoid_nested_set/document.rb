@@ -13,6 +13,7 @@ module Mongoid::Acts::NestedSet
       include Rebuild
       include Validation
       include Fields
+      include Helpers
 
       # Returns the first root
       def root
